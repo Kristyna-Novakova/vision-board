@@ -1,0 +1,50 @@
+body {
+  background-color: rgb(198, 230, 230);
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+h1 {
+  text-align: center;
+  color: #848282;
+}
+
+.box-section {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-align {
+  text-align: left;
+  width: fit-content;
+}
+
+.inspiration img {
+  flex: auto;
+  border-radius: 10%;
+}
+
+
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #848282;
+}
+
+a:hover {
+  color: #14335f;
+  background: #fff;
+}
